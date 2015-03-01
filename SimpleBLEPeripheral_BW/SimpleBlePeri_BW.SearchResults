@@ -1,0 +1,9 @@
+---- NPI_WriteString Matches (8 in 4 files) ----
+Npi.c (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\common\npi\npi_np):uint16 NPI_WriteString( char *buf)
+Npi.h (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\common\npi\npi_np):extern uint16 NPI_WriteString( char *buf);
+simpleBLEPeripheral.c (source):  NPI_WriteString("Hello!\r\n");
+simpleBLEPeripheral.c (source):        NPI_WriteString("Key6\r\n");
+simpleBLEPeripheral.c (source):  NPI_WriteString("test read\r\n");
+simpleBLEPeripheral.c (source):        NPI_WriteString(str);
+simpleGATTprofile.c (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\profiles\simpleprofile):  NPI_WriteString(str);
+simpleGATTprofile.c (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\profiles\simpleprofile):    NPI_WriteString(str);

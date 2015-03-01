@@ -1,0 +1,5 @@
+---- sprintf Matches (4 in 2 files) ----
+Npi.c (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\common\npi\npi_np):    sprintf(str, buf, value);
+Npi.c (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\common\npi\npi_np):	sprintf(str, buf, var1,var2);
+simpleGATTprofile.c (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\profiles\simpleprofile):  sprintf(str, "read attr!%4d %4d %4d \r\n", 
+simpleGATTprofile.c (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\profiles\simpleprofile):  sprintf(str, "22test:%4d %4d %4d %4d %4d\r\n", 

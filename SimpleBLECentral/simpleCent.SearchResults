@@ -1,0 +1,11 @@
+---- WDCTL Matches (30 in 5 files) ----
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\components\hal\target\cc2540eb):#define WD_KICK()           st( WDCTL = (0xA0 | WDCTL & 0x0F); WDCTL = (0x50 | WDCTL & 0x0F); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\components\hal\target\cc2540eb):#define HAL_SYSTEM_RESET()  st( HAL_DISABLE_INTERRUPTS(); WDCTL = WD_RESET1; WDCTL = WD_RESET2; for(;;); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\components\hal\target\cc2540usb):#define WD_KICK()           st( WDCTL = (0xA0 | WDCTL & 0x0F); WDCTL = (0x50 | WDCTL & 0x0F); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\components\hal\target\cc2540usb):#define HAL_SYSTEM_RESET()  st( HAL_DISABLE_INTERRUPTS(); WDCTL = WD_RESET1; WDCTL = WD_RESET2; for(;;); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\components\hal\target\cc2541arc):#define WD_KICK()           st( WDCTL = (0xA0 | WDCTL & 0x0F); WDCTL = (0x50 | WDCTL & 0x0F); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\components\hal\target\cc2541arc):#define HAL_SYSTEM_RESET()  st( HAL_DISABLE_INTERRUPTS(); WDCTL = WD_RESET1; WDCTL = WD_RESET2; for(;;); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\components\hal\target\cc2541st):#define WD_KICK()           st( WDCTL = (0xA0 | WDCTL & 0x0F); WDCTL = (0x50 | WDCTL & 0x0F); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\components\hal\target\cc2541st):#define HAL_SYSTEM_RESET()  st( HAL_DISABLE_INTERRUPTS(); WDCTL = WD_RESET1; WDCTL = WD_RESET2; for(;;); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\util\ubl\soc_8051\usb_msd\hal):#define WD_KICK()           st( WDCTL = (0xA0 | WDCTL & 0x0F); WDCTL = (0x50 | WDCTL & 0x0F); )
+Hal_mcu.h (c:\texas instruments\ble-cc254x-1.4.0\projects\ble\util\ubl\soc_8051\usb_msd\hal):#define HAL_SYSTEM_RESET()  st( HAL_DISABLE_INTERRUPTS(); WDCTL = WD_RESET1; WDCTL = WD_RESET2; for(;;); )
